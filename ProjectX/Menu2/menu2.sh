@@ -33,14 +33,14 @@ case $opcao in
     1)
       echo "Debloater (desinstalar apps de sistema)"
       
-      .Teste/Debloater/Debloater.sh
+      .ProjectX/Debloater/Debloater.sh
 
       ;;
 
     2)
      echo "Limpar cache"
 
-     .Teste/LimparCache/limparcache.sh 
+     .ProjectX/LimparCache/limparcache.sh 
 
      ;;
 
@@ -53,7 +53,7 @@ case $opcao in
     4) 
       echo "Voltar a tela inicial"
  
-      .Teste/Menu1/menu.sh
+      .ProjectX/menu.sh
 
     ;;
     

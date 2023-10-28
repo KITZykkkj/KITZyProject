@@ -1,5 +1,7 @@
 #!/system/bin/sh
 
+clear
+
 sleep 1 
 
 echo -n "
@@ -46,14 +48,14 @@ case $opcao in
 1)
    echo "Ir para menu de opções" 
 
-   .ProjectX/Menu2/menu2.sh
+   ./Menu2/menu2.sh
 
    ;;
 
 2) 
   echo "Créditos e Canais"
 
-   .ProjectX/Créditos.sh
+   ./Créditos.sh
 
   ;;
 

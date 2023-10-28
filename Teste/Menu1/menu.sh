@@ -1,5 +1,7 @@
 #!/system/bin/sh
 
+clear
+
 sleep 1 
 
 echo -n "
@@ -35,8 +37,8 @@ echo -n "
 
 \e[35m Opções: \e[0m
 
-\e[36m1-/e[0m \e[35m Ir para menu de opções \e[0m
-\e[36m2-/e[0m \e[35m Créditos e Canais /e[0m
+\e[36m1-\e[0m \e[35m Ir para menu de opções \e[0m
+\e[36m2-\e[0m \e[35m Créditos e Canais /e[0m
 
 "
 read opcao

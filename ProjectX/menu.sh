@@ -46,14 +46,14 @@ case $opcao in
 1)
    echo "Ir para menu de opções" 
 
-   .Menu1/Menu2/menu2.sh
+   .ProjectX/Menu2/menu2.sh
 
    ;;
 
 2) 
   echo "Créditos e Canais"
 
-   .Menu1/Menu2/Créditos.sh
+   .ProjectX/Créditos.sh
 
   ;;
 
